@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cookie Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper"></div>
+
+    <div class="welcome">
+      <h1>Welcome to Cookie Challenge</h1>
+
+      <input
+        name="login"
+        type="text"
+        maxlength="512"
+        id="login"
+        value="First Name Here"
+      />
+
+      <button class="login__btn">LOGIN</button>
+    </div>
+
+    <div class="app">
+      <button class="app" type="button" id="remove__btn">REMOVE</button>
+
+      <button class="app" type="button" id="create__btn">CREATE</button>
+
+      <text class="app" id="welcome">Welcome,</text>
+      <text class="app" id="currentCookie">Curent Cookie</text>
+
+      <div class="app" type="display" id="display">No cookies currently...</div>
+
+      <button class="app" type="button" id="edit__btn">RENAME COOKIE</button>
+
+      <input
+        name="searchTxt"
+        type="text"
+        maxlength="512"
+        id="cookieTxt"
+        class="app"
+        value="New cookie name here"
+      />
+
+      <button class="app" type="button" id="logout__btn">LOGOUT</button>
+    </div>
+
+    <script src="cookie.js"></script>
+  </body>
+</html>

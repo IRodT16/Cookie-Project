@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: url(CW.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 70%;
+  transition: opacity 1s;
+}
+
+.welcome h1 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-family: sans-serif;
+  user-select: none;
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.welcome input[name='login'] {
+  position: absolute;
+  top: 21%;
+  left: 45%;
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.welcome .login__btn {
+  position: absolute;
+  top: 27%;
+  left: 49%;
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+#currentCookie {
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  font-family: sans-serif;
+  user-select: none;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+#welcome {
+  position: absolute;
+  top: 2.5%;
+  left: 5%;
+  font-family: sans-serif;
+  user-select: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+#logout__btn {
+  position: absolute;
+  top: 2.5%;
+  right: 5%;
+  font-family: sans-serif;
+  user-select: none;
+  font-size: 15px;
+  color: black;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+#remove__btn {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+
+#create__btn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  opacity: 0%;
+  font-size: 20px;
+  transition: opacity 1s;
+}
+
+#edit__btn {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+
+#edit__username {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+
+#cookieTxt {
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+#display {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: black;
+  opacity: 0%;
+  transition: opacity 1s;
+}
+
+#display {
+  grid-row: 2 / span 3;
+  background-color: #fff;
+  color: rgb(36, 16, 13);
+  border-radius: 1rem;
+  overflow: none;
+  width: 600px;
+  height: 47px;
+  opacity: 0%;
+  padding: 2.25rem 4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  font-family: sans-serif;
+  transition: opacity 1s;
+}
